@@ -12,7 +12,6 @@ com.linkedin.android \
 com.spotify.music \
 com.fitbit.FitbitMobile \
 com.sfr.android.sfrjeux \
-com.miui.phone.carriers.overlay.vodafone \
 com.zhiliaoapp.musically 
 
 ## Xiaomi
@@ -20,7 +19,6 @@ android.autoinstalls.config.Xiaomi.model \
 cn.wps.xiaomi.abroad.lite \
 com.duokan.phone.remotecontroller \
 com.google.android.apps.magazines \
-com.mi.global.bbs \
 com.mi.global.shop \
 com.mi.globalminusscreen \
 com.miui.calculator \
@@ -32,9 +30,6 @@ com.miui.notes \
 com.miui.phone.carriers.overlay.h3g \
 com.miui.phone.carriers.overlay.vodafone \
 com.miui.qr \
-com.miui.securityadd \
-com.miui.securitycenter \
-com.miui.securitycore \
 com.miui.screenrecorder \
 com.miui.screenshot \
 com.miui.weather2 \
@@ -51,6 +46,13 @@ com.xiaomi.trustservice \
 de.telekom.tsc \
 org.ifaa.aidl.manager \
 org.mipay.android.manager \
+com.xiaomi.aicr \
+
+**not breaking your phone, but breaking functionality:**
+com.miui.securityadd      # necessary for security settings/app settings \
+com.miui.securitycenter   # necessary for security settings/app settings \
+com.miui.securitycore     # necessary for security settings/app settings \
+com.mi.global.bbs         # Community app; necessary for unlocking bootloader in HyperOS \
 
 ## Google
 com.android.dreams.basic \
@@ -58,7 +60,7 @@ com.android.dreams.phototable \
 com.android.hotwordenrollment.okgoogle \
 com.android.hotwordenrollment.xgoogle \
 com.android.soundrecorder \
-com.android.vending \
+com.android.vending \ # goolge play store
 com.google.ambient.streaming \
 com.google.android.adservices.api \
 com.google.android.apps.adm \
@@ -81,4 +83,5 @@ com.google.android.healthconnect.controller \
 com.google.android.overlay.healthconnect \
 com.google.mainline.adservices \
 com.google.mainline.telemetry \
- 
+com.google.android.accessibility.switchaccess \
+com.google.android.tts \
