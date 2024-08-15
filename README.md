@@ -53,6 +53,7 @@ com.miui.securityadd      # necessary for security settings/app settings \
 com.miui.securitycenter   # necessary for security settings/app settings \
 com.miui.securitycore     # necessary for security settings/app settings \
 com.mi.global.bbs         # Community app; necessary for unlocking bootloader in HyperOS \
+com.xiaomi.mi_connect_service # bluetooth sharing (e.g.. spotify connect)
 
 ## Google
 com.android.dreams.basic \
